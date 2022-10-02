@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkmod",
+  "version": "${version}",
+  "name": "ChunkMod",
+  "description": "",
+  "authors": [
+    "KingContaria"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "mixins": [
+    "chunkmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": ">=1.9 <=1.12.2"
+  }
+}
